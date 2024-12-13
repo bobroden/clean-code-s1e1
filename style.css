@@ -27,7 +27,9 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task-name, .task-input, .new-task-input {
+.task-name,
+.task-input,
+.new-task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -35,17 +37,26 @@
 .task-row {
   display: flex;
 }
-#incomplete-tasks, #completed-tasks {
+#incomplete-tasks,
+#completed-tasks {
   margin: 0;
   padding: 0px;
 }
-.task, .task-list-title {
+.task,
+.task-list-title {
   list-style: none;
 }
-.new-task-input, .task-checkbox, .task-input, .new-task-button, .edit, .delete {
+.new-task-input,
+.task-checkbox,
+.task-input,
+.new-task-button,
+.edit,
+.delete {
   outline: none;
 }
-.new-task-button, .edit, .delete {
+.new-task-button,
+.edit,
+.delete {
   background: none;
   border: 0px;
   color: #888;
@@ -54,7 +65,9 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.new-task-button:hover, .edit:hover, .delete:hover {
+.new-task-button:hover,
+.edit:hover,
+.delete:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -68,7 +81,8 @@
   margin: 0;
   text-transform: uppercase;
 }
-.new-task-input, .task-input {
+.new-task-input,
+.task-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -80,7 +94,8 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
-.new-task-input:focus, .task-input:focus {
+.new-task-input:focus,
+.task-input:focus {
   color: #333;
 }
 
